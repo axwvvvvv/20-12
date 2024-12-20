@@ -1,0 +1,47 @@
+.nav {
+   display: flex;
+   justify-content: space-between;
+   gap: 15px;
+   align-items: center;
+
+   padding-top: 50px;
+}
+
+.logo {
+   display: flex;
+   align-items: center;
+   gap: 10px;
+}
+
+.menu {
+   display: flex;
+   gap: 40px;
+
+   a {
+      text-decoration: none;
+      color: #fff;
+
+      font-size: 12px;
+      font-weight: 500;
+      text-transform: uppercase;
+   }
+}
+
+
+.btn {
+   color: #FFFFFF;
+   background:transparent;
+   padding: 16px 38px;
+   border: 1px solid #FFFFFF;
+   border-radius: 40px;
+   cursor: pointer;
+   font-size: 12px;
+   font-weight: 600;
+   text-transform: uppercase;
+   
+}
+
+.btns {
+   display: flex;
+   gap: 40px;  
+}
