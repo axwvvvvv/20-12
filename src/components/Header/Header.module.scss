@@ -1,47 +1,43 @@
-.nav {
+.nav{
    display: flex;
    justify-content: space-between;
    gap: 15px;
    align-items: center;
-
    padding-top: 50px;
 }
 
-.logo {
+.logo{
    display: flex;
    align-items: center;
    gap: 10px;
 }
 
-.menu {
+.menu{
    display: flex;
    gap: 40px;
 
-   a {
+   a{
       text-decoration: none;
-      color: #fff;
-
+      color: white;
+      font-weight: 700;
       font-size: 12px;
-      font-weight: 500;
-      text-transform: uppercase;
    }
 }
 
-
-.btn {
-   color: #FFFFFF;
-   background:transparent;
-   padding: 16px 38px;
-   border: 1px solid #FFFFFF;
-   border-radius: 40px;
-   cursor: pointer;
-   font-size: 12px;
-   font-weight: 600;
-   text-transform: uppercase;
-   
+.btns{
+   display: flex;
+   gap: 40px;
 }
 
-.btns {
-   display: flex;
-   gap: 40px;  
+.btn{
+   background-color: transparent;
+   padding: 16px 37px;
+   color: white;
+   border: 1px solid white;
+   border-radius: 25px;
+   text-transform: uppercase;
+   font-weight: 600;
+   font-size: 12px;
+   border-radius: 25px;
+   cursor: pointer;
 }

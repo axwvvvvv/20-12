@@ -1,48 +1,44 @@
 .wrap {
-   display: flex;
-   justify-content: space-between;
-   align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 100px;
 }
 
 .box {
-   max-width: 456px;
-   display: flex;
-   flex-direction: column;
-   gap: 36px;
+  max-width: 460px;
+  display: flex;
+  flex-direction: column;
+  gap: 36px;
 
-   h1 {
-      color: #fff;
-      font-size: 40px;
+  h1 {
+    font-size: 40px;
+    color: white;
+    span {
+      background: linear-gradient(269deg, #c0b7e8 -3.72%, #8176af 82.17%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+  }
 
+  p{
+   color: white;
+   font-size: 16px;
+   line-height: 1.1;
+   letter-spacing: 1px;
+  }
 
-      span {
-         background: linear-gradient(269deg, #C0B7E8 -3.72%, #8176AF 82.17%);
-            -webkit-background-clip: text; /* Для обрезки фона текстом */
-            -webkit-text-fill-color: transparent;
+  div {
+    align-items: center;
+    display: flex;
 
-
-      }
-   }
-
-   p {
-      color: #FFFFFF;
-      font-size: 16px;
-      line-height: 1.2;
-   }
-
-   div {
-      display: flex;
-      align-items: center;
-
-
-      img {
-         cursor: pointer;
-      }
-   }
+    img {
+      cursor: pointer;
+    }
+  }
 }
 
-.photo {
-   border-radius: 90px 90px 90px 200px;
-   border: 14px solid rgb(0, 0, 0, 0.1);
-
+.photo{
+   border-radius: 80px 90px 90px 200px;
+   border: 14px solid #00000021;
 }
