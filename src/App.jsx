@@ -7,7 +7,9 @@ import Intruduction from './components/Introduction/Intruduction'
 import Tarifs from './components/Tarifs/Tarifs'
 import Used from './components/Used/Used'
 import Level from './components/Level/Level'
-
+import Join from './components/Join/Join'
+import Footer from './components/Footer/Footer'
+import Manta from './components/Manta/Manta'
 
 
 const App = () => {
@@ -16,10 +18,13 @@ const App = () => {
       <Header/>
       <Hero/>
       <Contacts/>
+      <Manta/>
       <Intruduction/>
       <Tarifs/>
       <Used/>
       <Level/>
+      <Join/>
+      <Footer/>
     </>
   )
 }

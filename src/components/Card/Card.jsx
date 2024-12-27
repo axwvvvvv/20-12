@@ -2,6 +2,8 @@ import React from "react";
 import s from "./Card.module.scss";
 import Button from "../Button/Button";
 
+
+
 const Card = ({image, title, text}) => {
   return (
     <>
